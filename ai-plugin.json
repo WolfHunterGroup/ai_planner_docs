@@ -1,0 +1,14 @@
+aiplanner-production.up.railway.app{
+  "schema_version": "v1",
+  "name_for_model": "prd_toolkit",
+  "description_for_model": "Toolkit for managing PRDs, plans, and codebases via GPT. Exposes endpoints for PRD, plan, codebase, and decision management.",
+  "api": {
+    "type": "openapi",
+    "url": "https://WolfHunterGroup.github.io/ai_planner_docs/ai-plugin.json",
+    "is_user_authenticated": false
+  },
+  "auth": { "type": "none" },
+  "logo_url": "",
+  "contact_email": "support@yourdomain.com",
+  "legal_info_url": ""
+} 
